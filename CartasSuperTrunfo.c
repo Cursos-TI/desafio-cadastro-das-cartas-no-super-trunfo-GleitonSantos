@@ -41,7 +41,9 @@ int main() {
         printf ("Quantos pontos turísticos existem na cidade escolhida?: \n");
         scanf("%d", &pontos); 
     
+        //Calcula a Densidade Populacional da carta 01.
         densidade= Populacao / area;
+        //Calcula o PIB per Capita da carta 01.
         percapta = pib / Populacao;
 
         //imprime na tela o número da carta 01.
@@ -53,8 +55,8 @@ int main() {
         printf("Área 1: %.2f km² \n", area);
         printf("PIB 1: %.2f bilhões de reais \n",pib);
         printf("Números de Pontos Turísticos 1: %d \n", pontos);
-        printf("Densidade Populacional %.2f hab/km² \n",densidade);
-        printf("PIB por per Capita: %.2f Reais \n", percapta);
+        printf("Densidade Populacional %.2f hab/km²: \n",densidade);
+        printf("PIB por per Capita: %.2f Reais: \n", percapta);
 
 // Código carta 02
     
@@ -91,7 +93,10 @@ int main() {
         printf ("Quantos pontos turísticos existem na cidade escolhida da carta 2?: \n");
         scanf("%d", &pontos2);   
 
+        //Calcula a Densidade Populacional da carta 02.    
         densidade= Populacao2 / area2;
+
+        //Calcula o PIB per Capita da carta 02.
         percapta = pib2 / Populacao2;
 
 
@@ -104,8 +109,8 @@ int main() {
         printf("Área 2: %.2f km² \n", area2);
         printf("PIB 2: %.2f bilhões de reais \n",pib2);
         printf("Números de Pontos Turísticos 2: %d \n", pontos2);
-         printf("Densidade Populacional 2 %.2f hab/km² \n",densidade2);
-        printf("PIB por per Capita 2: %.2f Reais \n", percapta2);
+        printf("Densidade Populacional 2 %.2f hab/km²: \n",densidade2);
+        printf("PIB por per Capita 2: %.2f Reais: \n", percapta2);
     
 
     return 0;
